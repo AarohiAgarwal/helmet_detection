@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+  <folder>images</folder>
+  <filename>Image_00982.jpg</filename>
+  <path>images/Image_00982.jpg</path>
+  <source>
+    <database>Helmet Detection Dataset - STAPLE All5Annotators</database>
+  </source>
+  <size>
+    <width>2160</width>
+    <height>3840</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>BikeWithRider</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <confidence>1.0000</confidence>
+    <bndbox>
+      <xmin>132</xmin>
+      <ymin>812</ymin>
+      <xmax>1535</xmax>
+      <ymax>2709</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>NoHelmet</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <confidence>1.0000</confidence>
+    <bndbox>
+      <xmin>902</xmin>
+      <ymin>868</ymin>
+      <xmax>1211</xmax>
+      <ymax>1160</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Helmet</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <confidence>1.0000</confidence>
+    <bndbox>
+      <xmin>676</xmin>
+      <ymin>826</ymin>
+      <xmax>1028</xmax>
+      <ymax>1169</ymax>
+    </bndbox>
+  </object>
+</annotation>

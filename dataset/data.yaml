@@ -1,0 +1,8 @@
+path: D:/Projects_Aarohi/helmet detection/dataset/processed
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: BikeWithRider
+  1: NoHelmet
+  2: Helmet
