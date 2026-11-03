@@ -1,0 +1,3 @@
+ID,Timestamp,Track_ID,Class_Name,Confidence,Association_Status,Screenshot_Path,BBox_XYXY
+1,2026-11-03 20:07:02,3,NoHelmet,0.9150,Verified (Rider Track #3),D:\Projects_Aarohi\helmet detection\alerts\violation_track3_20261103_200702_823898.jpg,"[150, 120, 380, 600]"
+1,2026-11-03 20:31:50,3,NoHelmet,0.9150,Verified (Rider Track #3),D:\Projects_Aarohi\helmet detection\alerts\violation_track3_20261103_203150_204190.jpg,"[150, 120, 380, 600]"

@@ -1,0 +1,33 @@
+# YOLOv8 Training Configuration for Real-Time Helmet Detection
+# Model Specification
+model: yolov8n.pt               # Pretrained YOLOv8n base weights
+
+# Dataset Specification
+data: dataset/data.yaml          # Processed EdgeVision dataset descriptor
+
+# Hyperparameters
+epochs: 50                      # Maximum training epochs
+batch: 8                        # Batch size (8 as requested)
+imgsz: 640                      # Input image resolution
+patience: 10                    # Early stopping patience
+seed: 42                        # Fixed random seed for reproducibility
+device: auto                    # auto: detects CUDA GPU if present, fallback to CPU
+workers: 2                      # Number of worker threads for data loading
+
+# Optimization & Learning Rate
+optimizer: auto                 # Automatically selects SGD/AdamW based on model
+lr0: 0.01                       # Initial learning rate
+lrf: 0.01                       # Final learning rate fraction (lr0 * lrf)
+weight_decay: 0.0005
+momentum: 0.937
+
+# Checkpointing & Directory Structure
+project: runs/detect            # Root directory for training runs
+name: helmet_training           # Subfolder for this specific training run
+exist_ok: false                 # Do not overwrite previously trained models
+save: true                      # Save checkpoints (best.pt and last.pt)
+save_period: -1                 # Only save best.pt and last.pt
+val: true                       # Run validation at each epoch
+plots: true                     # Generate Ultralytics evaluation curves & confusion matrices
+verbose: true
+
